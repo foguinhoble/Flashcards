@@ -1,0 +1,19 @@
+body {
+
+}
+
+footer
+    background-color: rgb(155, 109, 101);
+    text-align: left;
+    button: 0;
+    position: fixed;
+    width: 100%;
+    heigth: 2rem;
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.6rem;
+    margin: 0.5rem;
+    
+}
