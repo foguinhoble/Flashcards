@@ -1,10 +1,10 @@
 body {
-
+    background-color: aliceblue; /*cor do fundo do site*/
 }
 
-footer
-    background-color: rgb(155, 109, 101);
-    text-align: left;
+footer{ /*rodape*/
+    background-color: rgb(155, 109, 101); /*cor do fundo do rodape*/
+    text-align: left; /*lugar onde o texto ira ficar posicionado*/
     button: 0;
     position: fixed;
     width: 100%;
