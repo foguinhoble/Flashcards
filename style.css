@@ -5,15 +5,15 @@ body {
 footer{ /*rodape*/
     background-color: rgb(155, 109, 101); /*cor do fundo do rodape*/
     text-align: left; /*lugar onde o texto ira ficar posicionado*/
-    button: 0;
-    position: fixed;
-    width: 100%;
-    heigth: 2rem;
+    button: 0; /*é utilizada para inserir interatividade em uma página ou formulário e tem como função executar uma determinada ação ao receber um clique do usuário.*/
+    position: fixed; /*irá fixar a posição do elemento na coordenada que você definir.*/
+    width: 100%; /* a largura do elemento será igual a largura do elemento pai*/
+    heigth: 2rem; /*determina a altura da área do conteúdo de um elemento*/
 }
 
-footer p{
-    text-align: center;
-    font-size: 0.6rem;
-    margin: 0.5rem;
+footer p{ /*marca a área inferior, normalmente conhecida como rodapé, do conteúdo geral do documento ou do conteúdo de uma seção específica a qual ele está subordinado.*/
+    text-align: center; /*entraliza o conteúdo desses elementos, deixando suas dimensões gerais inalteradas*/
+    font-size: 0.6rem; /* estabelece o tamanho da fonte*/
+    margin: 0.5rem; /*tamanho da margem*/
     
 }
