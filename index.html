@@ -1,45 +1,58 @@
 <!DOCTYPE html> <!--diz qual versão do html a pagina é escrita-->
 <html lang="pt-br"> <!--linguagem do site, portugues-->
+
 <head> <!--cabeça do site, não visivel ao usuário-->
     <meta charset="UTF-8"> <!--efine o conjunto de caracteres a ser utilizado na exibição do conteúdo de um site-->
-    <meta name="viewport" content="width=>, initial-scale=1.0"> <!--fornece ao navegador instruções sobre como controlar o dimensionamento da página quando acessada de diferentes tamanhos de dispositivos-->
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <!--fornece ao navegador instruções sobre como controlar o dimensionamento da página quando acessada de diferentes tamanhos de dispositivos-->
     <title>flashcards</title> <!--titulo-->
-    <link rel="stylesheet" href="style.css"> <!--informa ao navegador para usar o arquivo CSS na renderização e apresentação do layout do documento HTML.-->
+    <link rel="stylesheet" href="style.css">
+    <!--informa ao navegador para usar o arquivo CSS na renderização e apresentação do layout do documento HTML.-->
 </head> <!--fechamento da tag head-->
+
 <body> <!-- corpo do documento html-->
     <main> <!--serve como o ponto de partida para a execução do programa-->
         <section id="container">
-            <article class="cartao"> <!--o article serve para apresenta uma composição independente em um documento, página, aplicação, ou site, ou que é destinado a ser distribuido de forma independente ou reutilizável. Já o class permitem a CSS e Javascript selecionar e acessar elementos específicos-->
+            <article class="cartao">
+                <!--o article serve para apresenta uma composição independente em um documento, página, aplicação, ou site, ou que é destinado a ser distribuido de forma independente ou reutilizável. Já o class permitem a CSS e Javascript selecionar e acessar elementos específicos-->
                 <div class="cartao_conteudo"> <!--seção do documento html-->
-                    <h3>biologia</h3> 
+                    <h3>biologia</h3>
                     <div class="qual faculdade utiliza a biologia"> <!--pergunta feita para o usuario-->
-                         farmacia
+                        farmacia
                     </div class="cartao_conteudo_resposta"> <!--resposta da pergunta-->
                     respota 1
                 </div> <!--define uma divisão ou seção em um documento html, fechamento da tag div-->
             </article> <!--fechamento da tag article-->
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3> Programação </h3>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>O que é CSS?</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        <p>O CSS é uma linguagem de estilização.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3> Programação </h3>
+                    <div class="cartao__conteudo__pergunta">
+                        <p>O que é CSS?</p>
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        <p>O CSS é uma linguagem de estilização.</p>
+                    </div>
+                </div>
+            </article>
+
+
+
         </section> <!--fechamento da tag section-->
     </main> <!--fechamento da tag main-->
     <footer> <!--sere como rodapé, do conteúdo geral do documento ou do conteúdo de uma seção específica-->
         <p>projeto desenvolvido pela Alura, sem fins lucrativos</p>
     </footer> <!--fechamento da tag footer-->
 </body> <!--fechamento da tag body-->
-</html> <!--fechamento do html-->
-<article class="cartao"></article>
-    <div class="cartao__conteudo">
-        <h3> Programação </h3>
-        <div class="cartao__conteudo__pergunta">
-            <p>O que é CSS?</p>
-        </div>                        
-        <div class="cartao__conteudo__resposta">
-            <p>O CSS é uma linguagem de estilização.</p>
-        </div>
-    </div>
-</article>
-</section>
-</main>
-<footer>
-    <p>Projeto desenvolvido pela Alura, sem fins lucrativos</p>
-</footer>
-</body>
+
 </html>
