@@ -1,5 +1,7 @@
 body {
-    background-color: aliceblue; /*cor do fundo do site*/
+    background: url(/bg-desktop.webp);
+    margin: 0;
+    padding: 0;
 }
 
 footer{ /*rodape*/
