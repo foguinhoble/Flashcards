@@ -1,7 +1,7 @@
 :root{
     --texto-color: #DBE4EF;
     --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --card-back-color: #4f9686;
 }
 
 body{
@@ -52,6 +52,10 @@ body{
 .cartao__conteudo__resposta p{
     color: var(--card-back-color);
     font-weight: 700;
+}
+
+.cartao:hover .cartao__conteudo{
+    transform: rotateY(180deg);
 }
 
 footer{
