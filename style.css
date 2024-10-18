@@ -1,29 +1,36 @@
-body {
+:root{
+    --texto-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+}
+
+body{
     background: url(/bg-desktop.webp);
     margin: 0;
     padding: 0;
 }
 
-container {
+#container {
     display: flex; /* Elementos dispostos em linha */
 }
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: aqua;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
 
 .cartao__conteudo {
+    background-color: var(--card-front-color);
     text-align: center;
     /* background-color: aquamarine; */
     height: 100%;
 }
 
 .cartao__conteudo h3 {
-    background-color: tomato;
+    color: var(--texto-color);
+    border: 1px solid var(--texto-color);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
@@ -37,19 +44,27 @@ container {
     padding: 2rem;
 }
 
-footer{ /*rodape*/
-    background-color: rgb(155, 109, 101); /*cor do fundo do rodape*/
-    text-align: left; /*lugar onde o texto ira ficar posicionado*/
-    button: 0; /*é utilizada para inserir interatividade em uma página ou formulário e tem como função executar uma determinada ação ao receber um clique do usuário.*/
-    position: fixed; /*irá fixar a posição do elemento na coordenada que você definir.*/
-    width: 100%; /* a largura do elemento será igual a largura do elemento pai*/
-    heigth: 2rem; /*determina a altura da área do conteúdo de um elemento*/
+.cartao__conteudo__pergunta p{
+    color: var(--texto-color);
+    font-weight: 500;
 }
 
-footer p{ /*marca a área inferior, normalmente conhecida como rodapé, do conteúdo geral do documento ou do conteúdo de uma seção específica a qual ele está subordinado.*/
-    text-align: center; /*entraliza o conteúdo desses elementos, deixando suas dimensões gerais inalteradas*/
-    font-size: 0.6rem; /* estabelece o tamanho da fonte*/
-    margin: 0.5rem; /*tamanho da margem*/
-    
+.cartao__conteudo__resposta p{
+    color: var(--card-back-color);
+    font-weight: 700;
 }
 
+footer{
+    background-color: black;
+    color: azure;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.6rem;
+    margin: 0.5rem;
+}
