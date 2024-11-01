@@ -1,0 +1,8 @@
+funcion criarcartao(categoria,pergunta,resposta)
+cartao.classname='cartao'
+cartao.innerHTML= '
+<div class="cartao__conteudo">
+    <h3> class=${pergunta}</h3>
+    <div class="cartao__conteudo"
+    
+</div>
