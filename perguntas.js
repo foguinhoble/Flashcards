@@ -59,12 +59,12 @@ criarCartao{
 
 criarCartao{
     'cachorros'
-    '',
-    'reanimação cardiopulmonar '
+    'tem pelo longo e ingere o proprio pelo
+    'gatos'
 }
 
 criarCartao{
     'cachorros'
-    'o que é rcp'
-    'resucitação cardiopulmonar '
+    'o que o cachorro PRECIA comer e é fresco?'
+    'carne crua. '
 }
